@@ -1,0 +1,26 @@
+ <html>
+    <script type="text/javascript" src="main.js">
+    </script>
+	<link href="style.css" rel="stylesheet">	
+    <body onload="init()">
+    <canvas id="can" width="1024" height="768"></canvas>
+    <div style="position:absolute;top:2%;left:43%;color:white;">Choose Color</div>
+    <div id="green" onclick="color(this)"></div>
+    <div id="blue" onclick="color(this)"></div>
+    <div id="red" onclick="color(this)"></div>
+    <div id="yellow" onclick="color(this)"></div>
+    <div id="orange" onclick="color(this)"></div>
+    <div id="white" onclick="color(this)"></div>
+    <div style="position:absolute;top:2%;left:55%;color:white;">Eraser</div>
+    <div id="black" onclick="color(this)"></div>
+    <img id="canvasimg" style="position:absolute;top:10%;left:35%;" style="background:black;">
+	<input type="button" value="resize" id="rsz" size="23" onclick="resizecanvas()">
+	<div style="position:absolute;top:3%;left:25%;color:white;">Width</div>
+	<input type="text" id="rsztextx" value="1024" size="23">
+	<div style="position:absolute;top:6%;left:25%;color:white;">Height</div>
+	<input type="text" id="rsztexty" value="768" size="23">
+	<input type="button" value="clear" id="clr" size="23" onclick="erase()">
+	<input type="button" value="help" id="btn" size="30" onclick="help()">
+	<p style="position:absolute;top:92%;left:43%;color:white;">beangreen247.github.io</p>
+    </body>
+    </html>

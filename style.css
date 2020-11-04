@@ -1,0 +1,95 @@
+body{
+	background:black;
+}
+#btn{
+	position:absolute;
+	top:5%;
+	left:20%;
+}
+#clr{
+	position:absolute;
+	top:5%;
+	left:15%;
+}
+#rsz{
+	position:absolute;
+	top:5%;
+	left:35%
+}
+#rsztexty{
+	position:absolute;
+	top:6%;
+	left:28%;
+	width:70px;
+}
+#rsztextx{
+	position:absolute;
+	top:3%;
+	left:28%;
+	width:70px;
+}
+#can{
+	position:absolute;
+	top:10%;
+	left:10%;
+	border:2px solid white;
+	background:black;
+	background-color:black;
+}
+#black{
+	position:absolute;
+	top:5%;
+	left:55%;
+	width:15px;
+	height:15px;
+	background:black;
+	border:2px solid white;
+}
+#green{
+	position:absolute;
+	top:5%;
+	left:45%;
+	width:10px;
+	height:10px;
+	background:green;
+}
+#red{
+	position:absolute;
+	top:5%;
+	left:47%;
+	width:10px;
+	height:10px;
+	background:red;
+}
+#blue{
+	position:absolute;
+	top:5%;
+	left:46%;
+	width:10px;
+	height:10px;
+	background:blue;
+}
+#yellow{
+	position:absolute;
+	top:7%;
+	left:45%;
+	width:10px;
+	height:10px;
+	background:yellow;
+}
+#orange{
+	position:absolute;
+	top:7%;
+	left:46%;
+	width:10px;
+	height:10px;
+	background:orange;
+}
+#white{
+	position:absolute;
+	top:7%;
+	left:47%;
+	width:10px;
+	height:10px;
+	background:white;
+}
