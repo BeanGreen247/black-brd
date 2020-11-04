@@ -8,7 +8,7 @@ Some features include
 * ability to resize the cannvas using pixel values
 * able to pick a color to draw with
 * button to clear etire canvas
-* if you want to save the current cannvas, rightclick on it and click on "save image as..." to save image to downloads folder
+* if you want to save the current canvas, rightclick on it and click on "save image as..." to save image to downloads folder
 
 Link to web app:
 
